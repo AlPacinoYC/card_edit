@@ -1,0 +1,38 @@
+body{background:url(../img/bac.jpg) 0 0 no-repeat;background-size:cover;min-height: 100vh;min-weight:100%;}
+.login{width: 450px;background-color: #fff;min-height: 275px;position: absolute;left: 50%;margin-left: -225px;top: 50%;margin-top: -137.5px;border-radius: 12px;-webkit-border-radius: 12px;box-sizing: border-box;    padding: 65px 15px 0;}
+.login .logo{position: absolute;top: -170px;height: 150px;left: 150px;}
+.login .circle{width:40px;height: 40px;border-radius: 50%;-webkit-border-radius:50%;background-color: #347ab8;}
+.login .login_img{height: 28px;}
+.login .login_header{text-align: center;margin: 30px 0;font-size: 24px;color: #ff6000;}
+.login .submit .input_box:not(:last-of-type){padding-left: 40px;}
+.login .submit .input_box{margin: 10px 0;height: 30px;}
+.login .submit .input_box input{width: 260px;height: 28px;line-height: 28px;font-size: 14px;}
+.login .submit .input_box .check_img{ width: 143px;}
+.login .submit .input_box .check{height: 23px;vertical-align: bottom;}
+.login .submit .input_box .to_login{cursor: pointer; text-align: center; width: 90px;height: 30px;line-height: 30px;background-color: #347ab8;border: 0;color: #fff;border-radius: 3px;-webkit-border-radius: 3px;margin: 0 auto;display: block;  }
+.login .submit .input_box .forget{color: #347ab8;font-size: 12px;}
+.login .reset_header{background-color: #347ab8;height: 50px;width: 450px;text-align: center; line-height: 50px;color: #fff;position: absolute;top: 0;left: 0;}
+
+.login .reset{padding-left: 40px;margin-top: 50px;}
+.login .reset .input_box{margin: 10px 0;height: 30px;}
+.login .reset .input_box input{width: 260px;height: 19px;line-height: 19px;font-size: 14px;}
+.login .reset .input_box .check_img{ width: 160px;}
+.login .reset .input_box .check{height: 30px;vertical-align: top;}
+.login .reset .input_box .to_login{width: 90px;height: 30px;line-height: 30px;background-color: #347ab8;border: 0;color: #fff;border-radius: 3px;-webkit-border-radius: 3px;margin: 10px 100px 0 68px;}
+.login .reset .input_box .forget{color: #347ab8;}
+.login .reset .input_box .get_indentify{cursor: pointer;  background-color: #32c4d3; color: #fff;padding:3px 12px; margin-left:2px;width: 260px;font-size: 14px;}
+.layer_sure {
+    color: #fff;
+    background-color: #337ab7;
+    width: 60px;
+    text-align: center;
+    padding: 3px 0;
+    cursor: pointer;
+    top: 80px;
+    left: 50%;
+    margin-left: -30px;
+}
+input{border: 1px solid #ccc;}
+input:-webkit-autofill {  
+    -webkit-box-shadow: 0 0 0px 1000px white inset !important;  
+}  
